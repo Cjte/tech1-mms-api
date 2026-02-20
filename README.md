@@ -35,7 +35,7 @@ cd tech1-mms-api
 
 
 # Make setup script executable (Linux/Mac)
-chmod +x setup_project.sh
+sudo chmod +x setup_project.sh
 
 # Run setup script
 ./setup_project.sh

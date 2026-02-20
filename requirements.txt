@@ -1,0 +1,35 @@
+
+#os
+#Kali GNU/Linux Rolling (2025.3)
+#Debian-based
+
+# Python version
+# Python 3.13.7
+
+Django>=5.0,<6.0                 # Django core
+
+# REST Framework & API Docs
+djangorestframework>=3.15.0
+drf-spectacular>=0.27.0
+
+django-cors-headers>=4.3.0        # CORS headers for frontend
+
+celery==5.5.3                     # Background task queue
+
+# Redis client for Python
+redis==5.2.0    # Compatible with Redis server 8.0.2
+
+# Database
+psycopg2-binary>=2.9.9       # PostgreSQL adapter (if using PostgreSQL)
+
+openpyxl>=3.1.2                    # Excel import
+
+python-dotenv>=1.0.1                # Environment variables
+
+# Production Server & Middleware
+gunicorn>=22.0.0
+whitenoise>=6.7.0
+
+django-filter>=24.2                 # Filtering support
+
+django-environ>=0.11.2              # Environment configuration

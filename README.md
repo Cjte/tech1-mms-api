@@ -1,7 +1,7 @@
 # Tech1 MMS API
 
 **Tech1 MMS API** is a Django REST API for managing **job cards** and **job statuses** with role-based access for **technicians** and **admins**.  
-It is designed to be easy to set up using a single `setup.sh` script so clients can get the project running quickly.
+It is designed to be easy to set up using a single `setup_project.sh` script so clients can get the project running quickly.
 
 ---
 

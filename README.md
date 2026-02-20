@@ -30,7 +30,7 @@ It is designed to be easy to set up using a single `setup_project.sh` script so 
 
 1. **Clone the repository**
 ```bash
-git clone https://github.com/Cjte/tech1-mms-api.git
+sudo git clone https://github.com/Cjte/tech1-mms-api.git
 cd tech1-mms-api
 
 

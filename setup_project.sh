@@ -25,6 +25,8 @@ fi
 echo "Ensuring Python 3.13 and venv are installed..."
 sudo apt install -y python3.13 python3.13-venv python3.13-dev python3-pip build-essential
 mkdir TECH_1_PROJECT
+mv requirements.txt
+mv tech1core
 cd TECH_1_PROJECT
 # Create virtual environment
 echo "Creating virtual environment..."
@@ -42,6 +44,7 @@ pip install --upgrade pip
 echo "Installing Python dependencies from requirements.txt..."
 pip install -r requirements.txt
 
+cd tech1core
 # Run Django migrations
 echo "Running Django migrations..."
 python manage.py makemigrations

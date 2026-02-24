@@ -19,6 +19,10 @@ celery==5.5.3                     # Background task queue
 # Redis client for Python
 redis==5.2.0    # Compatible with Redis server 8.0.2
 
+#others
+pandas
+numpy
+
 # Database
 psycopg2-binary>=2.9.9       # PostgreSQL adapter (if using PostgreSQL)
 

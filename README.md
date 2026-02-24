@@ -36,8 +36,9 @@ cd tech1-mms-api
 
 # Make setup script executable (Linux/Mac)
 sudo chmod +x setup_project.sh
+sudo chmod +x setup.sh
 
 # Run setup script
 ./setup_project.sh
 
-python manage.py runserver
+sudo ./setup.sh

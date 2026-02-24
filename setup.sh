@@ -1,12 +1,16 @@
+#!/bin/bash
+
 mkdir TECH_1_PROJECT
-mv requirements.txt
-mv tech1core
+mv requirements.txt TECH_1_PROJECT
+mv tech1core TECH_1_PROJECT
 cd TECH_1_PROJECT
+
 # Create virtual environment
 echo "Creating virtual environment..."
 python3.13 -m venv venv
 
 # Activate virtual environment
+sudo apt install python3.13-venv
 echo "Activating virtual environment..."
 source venv/bin/activate
 
